@@ -1,1 +1,40 @@
-
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,code,legend,button,form,fieldset,input,textarea,p,blockquote,th,td{padding:0;margin:0;}
+body{background:#fff;color:#222;font-size:14px;margin-top:5px;font-family:Arial;}
+ol,ul{list-style:none;}
+h1,h2,h3,h4,h5,h6{font-weight:normal;font-size:100%;}
+a{text-decoration:none;}
+.w1200{width:1200px;margin:0 auto;}
+.fl{float:left;}
+.fr{float:right;} 
+/*======== header ========*/
+.logo-bar{height:120px;}
+.logo{padding:7px 7px 0 0;}
+.logo img{height:100px;}
+.title{height:120px;line-height:120px;font-size:60px;color:#999;}
+.title b{color:#444;}
+.nav{height:70px;background:#f37021;}
+.nav li{height:70px;line-height:70px;font-size:20px;color:#fff;display:block;padding:0 40px;border-right:1px solid rgba(255,255,255,.4);}
+.nav ul li:first-child{border-left:1px solid rgba(255,255,255,.4);}
+.nav li:hover{background:#f7941d;}
+.search-box{width:206px;height:40px;margin:12px 5px 0 0;}
+.search-box input{width:140px;height:40px;outline:none;border:2px solid #fdb913;padding:0 10px;border-radius:10px 0 0 10px;}
+.search-box button{width:42px;height:44px;border:2px solid #fdb913;border-left:0;border-radius:0 10px 10px 0;background:#fdb913 url("../images/search-icon.png") no-repeat center;background-size:22px;}
+.search-box button:hover{cursor:pointer;background:#f99d1c url("../images/search-icon.png") no-repeat center;background-size:22px;}
+/*======== main ========*/
+.banner{width:1200px;height:400px;background:url("../images/banner.jpg") no-repeat;margin:20px 0;border-radius:15px;}
+.contents{height:800px;margin-bottom:15px;}
+.item{width:368px;height:background:orange;text-align:center;margin-left:48px;color:#222;}
+.item:hover{opacity:80%;}
+.item:nth-child(1),.item:nth-child(4){margin-left:0;}
+.item h2{font-size:20px;margin-top:8px;}
+.item img{width:368px;margin:10px 0;border-radius:15px;}
+.item p{text-align:left;margin-bottom:25px;color:#888;}
+/*======== footer ========*/
+.footer{background:#212326;}
+.footer .center{padding:10px 0 25px 0;}
+.footer h2{font-size:24px;color:#bbb;font-weight:bold;margin:20px 0 5px 0;}
+.footer p{text-align:left;color:#ddd;font-size:15px;line-height:18px;}
+.footer hr{margin:20px 0;border:1px dashed #555;}
+.footer a{color:#ccc;margin-right:20px;}
+.footer a:hover{color:#eee;}
+.footer span{color:#ccc;margin-right:20px;}
